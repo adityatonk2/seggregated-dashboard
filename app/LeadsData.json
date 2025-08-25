@@ -645,20 +645,6 @@
     "linkedin": "https://linkedin.com/in/lalit-ahluwalia"
   },
   {
-    "sno": 93,
-    "name": "Amin Vahdat",
-    "designation": "VP and GM, ML AI Cloud (Speaker)",
-    "organisation": "Google",
-    "linkedin": null
-  },
-  {
-    "sno": 94,
-    "name": "Shakti Yadav",
-    "designation": "Partner, Strategic Marketer",
-    "organisation": "Deloitte",
-    "linkedin": null
-  },
-  {
     "sno": 95,
     "name": "Upen Sachdev",
     "designation": "Partner, CISO Program Leader",
@@ -889,7 +875,7 @@
     "designation": "Partner, Cloud Alliance Leader",
     "linkedin": null
   },
-   {
+  {
     "sno": 128,
     "name": "Jason Foa",
     "organisation": "PwC US",
@@ -1107,13 +1093,6 @@
     "linkedin": null
   },
   {
-    "sno": 159,
-    "name": "Lauren Adelson-Luft",
-    "organisation": "BNY",
-    "designation": "Managing Director and CFO (Attendee)",
-    "linkedin": null
-  },
-  {
     "sno": 160,
     "name": "Alok Pareek",
     "organisation": "Striim",
@@ -1240,13 +1219,6 @@
     "linkedin": null
   },
   {
-    "sno": 178,
-    "name": "Lauren Adelson-Luft",
-    "organisation": "BNY",
-    "designation": "Attendee - Managing Director and CFO",
-    "linkedin": null
-  },
-   {
     "sno": 179,
     "name": "Jorge Corral",
     "organisation": "Accenture",
@@ -1975,13 +1947,6 @@
     "linkedin": "https://linkedin.com/in/koshy89"
   },
   {
-    "sno": 283,
-    "name": "Dham Pathervellai",
-    "organisation": "Ingram Micro",
-    "designation": "Chief Technology Officer",
-    "linkedin": "https://www.linkedin.com/in/dhampathervellai/"
-  },
-  {
     "sno": 284,
     "name": "Mary Beth Eckert",
     "organisation": "Pacific Life",
@@ -2253,13 +2218,6 @@
     "organisation": "PDS Health (formerly Pacific Dental Services)",
     "designation": null,
     "linkedin": null
-  },
-  {
-    "sno": 323,
-    "name": "Kelly Greenhaw",
-    "organisation": "Panasonic Avionics",
-    "designation": "Senior Director Cybersecurity - CISO",
-    "linkedin": "https://www.linkedin.com/in/kellygreenhaw/overlay/about-this-profile/"
   },
   {
     "sno": 324,
@@ -4206,21 +4164,21 @@
     "name": "Alondra Nelson",
     "organisation": "Institute for Advanced Study",
     "designation": "Professor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/alondranelson/"
   },
   {
     "sno": 602,
     "name": "Daniel Skovronsky",
     "organisation": "Lilly Research Laboratories",
     "designation": "Chief Scientific Officer and President",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/danielskovronsky/"
   },
   {
     "sno": 603,
     "name": "Georges Benjamin",
     "organisation": "American Public Health Association",
     "designation": "Executive Director",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/georges-benjamin-76a3a87/"
   },
   {
     "sno": 604,
@@ -4241,49 +4199,49 @@
     "name": "Danielle Bitterman",
     "organisation": "Harvard Medical School",
     "designation": "Assistant Professor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/danielle-bitterman-87834b16b/"
   },
   {
     "sno": 607,
     "name": "Kim Branson",
     "organisation": "GSK",
     "designation": "SVP, Global Head of Artificial Intelligence and Machine Learning",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/kim-branson-b864963/"
   },
   {
     "sno": 608,
     "name": "Patricia Brennan",
     "organisation": null,
     "designation": "Product Technology Leader",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/patriciaannebrennan/"
   },
   {
     "sno": 609,
     "name": "Robert Califf",
     "organisation": "Duke University",
     "designation": null,
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/robert-califf-69040016/"
   },
   {
     "sno": 610,
     "name": "David Carmouche, MD",
     "organisation": null,
     "designation": "EVP & Chief Clinical Transformation Officer",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/david-carmouche-md/"
   },
   {
     "sno": 611,
     "name": "Morgan Cheatham, MD",
     "organisation": "Breyer Capital",
     "designation": "Partner and Head of Healthcare and Life Sciences",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/morgancheatham/"
   },
   {
     "sno": 612,
     "name": "Lynne Chou O'Keefe",
     "organisation": "Define Ventures",
     "designation": "Founder and Managing Partner",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/lynne-chou-o-keefe-5617a/"
   },
   {
     "sno": 613,
@@ -4297,98 +4255,98 @@
     "name": "Dr. Sue Desmond-Hellmann",
     "organisation": "Bill & Melinda Gates Foundation (Former)",
     "designation": null,
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/suedesmondhellmann/"
   },
   {
     "sno": 615,
     "name": "Jacqueline (Jacki) Dioguardi",
     "organisation": "Roche",
     "designation": "Global Pharma Commercial CIO",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/jacki-dioguardi-bustech/"
   },
   {
     "sno": 616,
     "name": "Ryan Fukushima",
     "organisation": "Tempus AI",
     "designation": "COO",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/ryanfukushima/"
   },
   {
     "sno": 617,
     "name": "Christine Jensen Huberty",
     "organisation": "Center for Medicare Advocacy",
     "designation": "Attorney",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/christine-jensen-huberty-90892051/"
   },
   {
     "sno": 618,
     "name": "Clifford Hudis",
     "organisation": "American Society of Clinical Oncology (ASCO)",
     "designation": "CEO",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/clifford-hudis-2884218/"
   },
   {
     "sno": 619,
     "name": "Reed Jobs",
     "organisation": "Yosemite",
     "designation": "Founder & Investor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/reed-jobs-00b3a91a9/"
   },
   {
     "sno": 620,
     "name": "Sally John",
     "organisation": "Bristol",
     "designation": "Senior Vice President, Informatics & Predictive Sciences",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/sally-john-6b3bb17/"
   },
   {
     "sno": 621,
     "name": "Rick Kronick",
     "organisation": "Herbert Wertheim School of Public Health",
     "designation": "Professor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/rick-kronick-32a38b5/"
   },
   {
     "sno": 622,
     "name": "Karen Knudsen MBA PhD",
     "organisation": null,
     "designation": "Cancer Innovation Leader",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/karen-knudsen-mba-phd-343311b8/"
   },
   {
     "sno": 623,
     "name": "Christopher Longhurst",
     "organisation": null,
     "designation": "Chief Clinical & Innovation Officer, Associate Dean",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/chrislonghurst/"
   },
   {
     "sno": 624,
     "name": "Danielle Mandikian, PhD",
     "organisation": "Genentech",
     "designation": "Senior Principal Scientist",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/danielle-mandikian/"
   },
   {
     "sno": 625,
     "name": "Gita Mahmoudabadi",
     "organisation": "Chan Zuckerberg Initiative",
     "designation": "Senior Research Scientist (AI/ML)",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/gita-mahmoudabadi-42138627/"
   },
   {
     "sno": 626,
     "name": "Michelle Mello",
     "organisation": "Stanford Law School",
     "designation": "Professor of Law",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/michelle-mello-80701b15/"
   },
   {
     "sno": 627,
     "name": "Jacqueline Poot",
     "organisation": "IDEA Pharma",
     "designation": "Chief Operating Officer",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/jacqueline-poot-67910b6/"
   },
   {
     "sno": 628,
@@ -4402,147 +4360,147 @@
     "name": "Deena Shakir",
     "organisation": "Lux Capital",
     "designation": "Partner",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/deenashakir/"
   },
   {
     "sno": 630,
     "name": "Ken Stein",
     "organisation": null,
     "designation": "Senior Vice President, Global Chief Medical Officer",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/ken-stein-9a618645/"
   },
   {
     "sno": 631,
     "name": "Mario Aguilar",
     "organisation": null,
     "designation": "Health technology reporter and editor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/mario-aguilar-13361235/"
   },
   {
     "sno": 632,
     "name": "Tara Bannow",
     "organisation": "STAT",
     "designation": "Reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/tara-bannow-6198ab73/"
   },
   {
     "sno": 633,
     "name": "Rick Berke",
     "organisation": "STAT",
     "designation": "Co-founder & Executive Editor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/rick-berke-55b6494/"
   },
   {
     "sno": 634,
     "name": "Angus Chen",
     "organisation": "STAT News",
     "designation": "Reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/angus-chen-5237831b/"
   },
   {
     "sno": 635,
     "name": "Allison DeAngelis",
     "organisation": "STAT",
     "designation": "Reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/allisondeangelis25/"
   },
   {
     "sno": 636,
     "name": "Matthew Herper",
     "organisation": "STAT",
     "designation": "Senior Writer, Medicine, and Editorial Director, Events",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/matthewherper/"
   },
   {
     "sno": 637,
     "name": "Katie Palmer",
     "organisation": "STAT",
     "designation": "Health tech reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/katiempalmer/"
   },
   {
     "sno": 638,
     "name": "Casey Ross",
     "organisation": "STAT News",
     "designation": "Technology Reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/caseyross1/"
   },
   {
     "sno": 639,
     "name": "Brittany Trang",
     "organisation": "STAT News",
     "designation": "Health Tech Reporter",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/brittanytrang/"
   },
   {
     "sno": 640,
     "name": "Andy Markus",
     "organisation": "AT&T",
     "designation": "Chief Data Officer",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/andy-markus-422b137/"
   },
   {
     "sno": 641,
     "name": "Vladislav Shkapenyuk",
     "organisation": "AT&T",
     "designation": "Expert Inventive Scientist",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/vladislav-shkapenyuk-670981326/"
   },
   {
     "sno": 642,
     "name": "Ted Johnson",
     "organisation": "AT&T-CDO",
     "designation": "Expert Inventive Scientist",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/ted-johnson-6aa105/"
   },
   {
     "sno": 643,
     "name": "Divesh Srivastava",
     "organisation": "AT&T",
     "designation": "Director",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/divesh-srivastava-98a5b2/"
   },
   {
     "sno": 644,
     "name": "Farbod Tavakkoli",
     "organisation": "AT&T",
     "designation": "Data Scientist (Ph.D.), Generative AI",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/farbodtavakkoli/"
   },
   {
     "sno": 645,
     "name": "Abhay Dabholkar",
     "organisation": null,
     "designation": "AVP Data Science & Engineering",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/abhay-dabholkar-57654113/"
   },
   {
     "sno": 646,
     "name": "Nikolaos Vasiloglou",
     "organisation": "RelationalAI",
     "designation": "VP of Research ML",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/vasiloglou/"
   },
   {
     "sno": 647,
     "name": "Gregory Diamos",
     "organisation": null,
     "designation": "ML Systems Builder / Entrepreneur / Advisor / Open Source Contributor",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/gregory-diamos-1a8b9083/"
   },
   {
     "sno": 648,
     "name": "Naila Farooqui",
     "organisation": null,
     "designation": "Machine Learning Systems Builder",
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/naila/"
   },
   {
     "sno": 649,
     "name": "Molham Aref",
     "organisation": "RelationalAI",
     "designation": null,
-    "linkedin": null
+    "linkedin": "https://www.linkedin.com/in/molham/"
   },
   {
     "sno": 650,
@@ -5530,5 +5488,621 @@
     "organisation": "Panasonic Avionics",
     "designation": "Senior Director Cybersecurity - CISO",
     "linkedin": "https://www.linkedin.com/in/kellygreenhaw/overlay/about-this-profile/"
+  },
+  {
+    "sno": 791,
+    "name": "Minnie Bodhanwala",
+    "organisation": "WADIA HOSPITALS",
+    "designation": "CEO",
+    "linkedin": "https://www.linkedin.com/in/minnie-bodhanwala-8661b824/"
+  },
+  {
+    "sno": 792,
+    "name": "Salil Parekh",
+    "organisation": "Infosys",
+    "designation": "Chief Executive Officer and Managing Director",
+    "linkedin": "https://www.linkedin.com/in/salilparekh/?originalSubdomain=in"
+  },
+  {
+    "sno": 793,
+    "name": "Virender Jeet",
+    "organisation": "Newgen Software",
+    "designation": "Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/in/virender-jeet-b95a039/"
+  },
+  {
+    "sno": 794,
+    "name": "Raunak Jain",
+    "organisation": "Tulas International School",
+    "designation": "Managing Director",
+    "linkedin": "https://www.linkedin.com/in/tulasinternationalschool/?originalSubdomain=in"
+  },
+  {
+    "sno": 795,
+    "name": "Avinash Mudaliar ",
+    "organisation": "HT LabsH",
+    "designation": "Co-Founder and CEO",
+    "linkedin": ""
+  },
+  {
+    "sno": 796,
+    "name": "Dr. Abhishek Gilara",
+    "organisation": "MD, Rambhajo’s (Est. 1921)",
+    "designation": "4th Gen Luxury Jeweller",
+    "linkedin": "https://www.linkedin.com/in/dr-abhishek-gilara-217850196/"
+  },
+  {
+    "sno": 797,
+    "name": "Peyush Bansal",
+    "organisation": "Lenskart",
+    "designation": "Founder and CEO",
+    "linkedin": "https://www.linkedin.com/in/peyushbansal/?originalSubdomain=in"
+  },
+  {
+    "sno": 798,
+    "name": "Tarita Shankar",
+    "organisation": "ndira Group Of Institutes, Pune",
+    "designation": "Chairperson",
+    "linkedin": "https://www.linkedin.com/in/tarita-shankar-a1901489/?originalSubdomain=in"
+  },
+  {
+    "sno": 799,
+    "name": "Dr.Tarang Gianchandani",
+    "organisation": "Sir HN Reliance Foundation Hospital",
+    "designation": "Group CEO",
+    "linkedin": "https://www.linkedin.com/in/dr-tarang-gianchandani-bb2ab25/"
+  },
+  {
+    "sno": 800,
+    "name": "Aditya Singh Ratnu",
+    "organisation": "ZEVO",
+    "designation": "CEO",
+    "linkedin": "https://www.linkedin.com/in/aditya-singh-ratnu-66727016b/"
+  },
+  {
+    "sno": 801,
+    "name": "Narendra Hirawat",
+    "organisation": "Nh Studioz",
+    "designation": "Chairman",
+    "linkedin": "https://www.linkedin.com/in/narendra-hirawat-52a2b6184/"
+  },
+  {
+    "sno": 802,
+    "name": "kumar mangalam birla",
+    "organisation": "Aditya Birla Group",
+    "designation": "Chairperson",
+    "linkedin": ""
+  },
+  {
+    "sno": 803,
+    "name": "Vikram Cotah",
+    "organisation": "GRT Hotels & Resorts",
+    "designation": "CEO",
+    "linkedin": "https://www.linkedin.com/in/vikramcotah/"
+  },
+  {
+    "sno": 804,
+    "name": "Priyanka Gera",
+    "organisation": "Aeria",
+    "designation": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/gera-priyanka/"
+  },
+  {
+    "sno": 805,
+    "name": "Prashant Bora",
+    "organisation": "Bora Multicorp",
+    "designation": "Founder, MD & CEO",
+    "linkedin": "https://www.linkedin.com/in/prashant-bora-b752b076/?originalSubdomain=in"
+  },
+  {
+    "sno": 806,
+    "name": "Malahar Pinnelli",
+    "organisation": "7-Eleven Global Solution Center – India",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/malahar/"
+  },
+  {
+    "sno": 807,
+    "name": "Ramesha Narahari",
+    "organisation": "ABB Business Services",
+    "designation": "Head",
+    "linkedin": "https://www.linkedin.com/in/ramesha-narahari-4a49aa25a/"
+  },
+  {
+    "sno": 808,
+    "name": "Prashant J.",
+    "organisation": "Global Capability Center (GCC)",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/prashant-j-6aa7b218/"
+  },
+  {
+    "sno": 809,
+    "name": "Jison John",
+    "organisation": "Allianz Services India",
+    "designation": "CEO & MD",
+    "linkedin": "https://www.linkedin.com/in/jison-john-a68a3619/"
+  },
+  {
+    "sno": 810,
+    "name": "Siva Kumar Padmanabhan",
+    "organisation": "AstraZeneca India Pvt. Ltd.",
+    "designation": "MD & Head of Global Innovation & Technology Center",
+    "linkedin": "https://www.linkedin.com/in/siva-kumar-padmanabhan-0480991/"
+  },
+  {
+    "sno": 811,
+    "name": "Mohit Dhingra",
+    "organisation": "Bristol Myers Squibb India, Hyderabad",
+    "designation": "Managing Director",
+    "linkedin": "https://www.linkedin.com/in/mohit-dhingra-6ab4509/"
+  },
+  {
+    "sno": 812,
+    "name": "Kamal Sharma",
+    "organisation": "",
+    "designation": "Global Digital Hubs Leader (China, India & Mexico)",
+    "linkedin": "https://www.linkedin.com/in/kamal450/"
+  },
+  {
+    "sno": 813,
+    "name": "Ashish Patel",
+    "organisation": "Commonwealth Bank of Australia in India",
+    "designation": "Managing Director",
+    "linkedin": "https://www.linkedin.com/in/ashish-patel-70543113/"
+  },
+  {
+    "sno": 814,
+    "name": "Pratik Nath",
+    "organisation": "Epsilon India",
+    "designation": "Managing Director",
+    "linkedin": "https://www.linkedin.com/in/pratik-nath-484a213/"
+  },
+  {
+    "sno": 815,
+    "name": "Sachin Kulkarni",
+    "organisation": "Fiserv Global Services",
+    "designation": "President",
+    "linkedin": "https://www.linkedin.com/in/sachinrkulkarni/"
+  },
+  {
+    "sno": 816,
+    "name": "Saurabh Saxena",
+    "organisation": "Intuit India",
+    "designation": "Site Leader & Senior Vice President",
+    "linkedin": "https://www.linkedin.com/in/saurabhsaxenaintuit/"
+  },
+  {
+    "sno": 817,
+    "name": "Dr. Rajesh Puneyani",
+    "organisation": "",
+    "designation": "VP Tech & Site Leader, Advisory Board Member",
+    "linkedin": "https://www.linkedin.com/in/rajeshpuneyani/"
+  },
+  {
+    "sno": 818,
+    "name": "Ankur Mittal",
+    "organisation": "Lowe's India",
+    "designation": "Chief Technology Officer & Managing Director",
+    "linkedin": "https://www.linkedin.com/in/ankur-mittal-4942842/"
+  },
+  {
+    "sno": 819,
+    "name": "Soumitra Saha",
+    "organisation": "Lumen India",
+    "designation": "Leader",
+    "linkedin": "https://www.linkedin.com/in/soumitrasaha/"
+  },
+  {
+    "sno": 820,
+    "name": "Manu Saale",
+    "organisation": "Mercedes-Benz Research and Development India",
+    "designation": "Managing Director & CEO",
+    "linkedin": "https://www.linkedin.com/in/manu-saale/"
+  },
+  {
+    "sno": 821,
+    "name": "Ramya Parashar",
+    "organisation": "MiQ Digital India Pvt Ltd",
+    "designation": "",
+    "linkedin": "https://www.linkedin.com/in/ramyaparashar/"
+  },
+  {
+    "sno": 822,
+    "name": "Uma Ratnam Krishnan",
+    "organisation": "Optum",
+    "designation": "Managing Director & CEO",
+    "linkedin": "https://www.linkedin.com/in/uma-ratnam-krishnan-26305211/"
+  },
+  {
+    "sno": 823,
+    "name": "Murali Krishna",
+    "organisation": "Providence",
+    "designation": "Chief Global Officer & Country Head",
+    "linkedin": "https://www.linkedin.com/in/mkrish17/"
+  },
+  {
+    "sno": 824,
+    "name": "Debashis Neogi",
+    "organisation": "Renault Nissan Tech Centre India",
+    "designation": "MD & Board Member",
+    "linkedin": "https://www.linkedin.com/in/debashis-neogi-a1140820/"
+  },
+  {
+    "sno": 825,
+    "name": "Kalavathi G V",
+    "organisation": "Siemens Healthineers",
+    "designation": "Executive Director and Head Global Development Center",
+    "linkedin": "https://www.linkedin.com/in/kalavathig/"
+  },
+  {
+    "sno": 826,
+    "name": "JORGE CORRAL",
+    "organisation": "ACCENTURE",
+    "designation": "Senior Managing Director",
+    "linkedin": "linkedin.com/in/jorge-corral-dallas"
+  },
+  {
+    "sno": 827,
+    "name": "XAVIER ‘XAV’ DE SOUZA BRIGGS",
+    "organisation": "BROOKINGS INSTITUTION SOUTHWEST AIRLINES",
+    "designation": "Senior Fellow",
+    "linkedin": "linkedin.com/in/xavier-de-souza-briggs-55499a5"
+  },
+  {
+    "sno": 828,
+    "name": "JUSTIN NGYUEN",
+    "organisation": "THE HOME DEPOT",
+    "designation": "Head of Enterprise Data",
+    "linkedin": "linkedin.com/in/justinntt"
+  },
+  {
+    "sno": 829,
+    "name": "DAVE COPPS",
+    "organisation": "WORLDS",
+    "designation": "CEO and Co-Founder",
+    "linkedin": "linkedin.com/in/davecopps"
+  },
+  {
+    "sno": 830,
+    "name": "HENRY DENG",
+    "organisation": "GOOGLE",
+    "designation": "Employer Partnerships Lead Grow with Google",
+    "linkedin": "linkedin.com/in/henry-deng-04407a2a"
+  },
+  {
+    "sno": 831,
+    "name": "NAVEENA ALLAMPALLI",
+    "organisation": "CBRE",
+    "designation": "Sr. Director AI/Gen AI Solutions and AI Architecture",
+    "linkedin": "linkedin.com/in/naveena-allampalli"
+  },
+  {
+    "sno": 832,
+    "name": "ERIC YANG",
+    "organisation": "TOPAZ LABS",
+    "designation": "CEO",
+    "linkedin": "linkedin.com/in/ericy"
+  },
+  {
+    "sno": 833,
+    "name": "DYAN GIBBENS",
+    "organisation": "DARPA",
+    "designation": "Senior Advisor at the",
+    "linkedin": "linkedin.com/in/dyangibbens"
+  },
+  {
+    "sno": 834,
+    "name": "MICHAEL SHERWOOD",
+    "organisation": "NVIDIA",
+    "designation": "Senior Business Manager for State and Local Government",
+    "linkedin": "linkedin.com/in/michaelsherwood"
+  },
+  {
+    "sno": 835,
+    "name": "JAMES HARDING",
+    "organisation": "GOOGLE",
+    "designation": "Manager, Gen AI Technical Solutions Consultant",
+    "linkedin": "linkedin.com/in/james-harding-bb343a1"
+  },
+  {
+    "sno": 836,
+    "name": "MARGOT CARTER",
+    "organisation": "CIEN.AI",
+    "designation": "Co-Founder",
+    "linkedin": "linkedin.com/in/margot-carter"
+  },
+  {
+    "sno": 837,
+    "name": "BABAR BHATTI SANJAY BASU",
+    "organisation": "IBM",
+    "designation": "Principal Data and AI Customer Success Manager",
+    "linkedin": "linkedin.com/in/bbhatti linkedin.com/in/sanjaybasu"
+  },
+  {
+    "sno": 838,
+    "name": "DAVID EVANS",
+    "organisation": "SENTIERO VENTURES",
+    "designation": "Managing Director",
+    "linkedin": "linkedin.com/in/davidevansaivc"
+  },
+  {
+    "sno": 839,
+    "name": "SHAHMEER MIRZA",
+    "organisation": "7-ELEVEN",
+    "designation": "Sr. Director of Data, AI/ML, and R&D",
+    "linkedin": "linkedin.com/in/shahmeermirza"
+  },
+  {
+    "sno": 840,
+    "name": "ABHI INGLE",
+    "organisation": "SAMBANOVA SYSTEMS",
+    "designation": "Chief Product & Strategy Officer",
+    "linkedin": "linkedin.com/in/ingle-abhi"
+  },
+  {
+    "sno": 841,
+    "name": "STEPHEN ELLIS",
+    "organisation": "TOYOTA MOTOR NORTH AMERICA",
+    "designation": "Technical Generative AI Product Manager",
+    "linkedin": "linkedin.com/in/spaulellis"
+  },
+  {
+    "sno": 842,
+    "name": "KEVIN SCOTT",
+    "organisation": "PGA OF AMERICA",
+    "designation": "CTO",
+    "linkedin": "linkedin.com/in/jkevinscott"
+  },
+  {
+    "sno": 843,
+    "name": "SKIP HOWARD",
+    "organisation": "SPACEE",
+    "designation": "Founder",
+    "linkedin": "linkedin.com/in/skiphoward"
+  },
+  {
+    "sno": 844,
+    "name": "AMY BLANKSON",
+    "organisation": "DIGITAL WELLNESS INSTITUTE",
+    "designation": "Co-founder and Chief Evangelist",
+    "linkedin": "linkedin.com/in/amyblankson"
+  },
+  {
+    "sno": 845,
+    "name": "AAMER CHARANIA",
+    "organisation": "BEST BUY",
+    "designation": "Head of Applied Machine Learning",
+    "linkedin": "linkedin.com/in/aamercharania"
+  },
+  {
+    "sno": 846,
+    "name": "STEPHEN WYLIE",
+    "organisation": "THRYVE",
+    "designation": "Head of AI for Saas Offerings",
+    "linkedin": "linkedin.com/in/stephen-wylie-ai"
+  },
+  {
+    "sno": 847,
+    "name": "ANDY MINTEER",
+    "organisation": "AI STRATEGIST",
+    "designation": "ex-Walmart",
+    "linkedin": "linkedin.com/in/andy-minteer-1a47216"
+  },
+  {
+    "sno": 848,
+    "name": "VIMAL VASUDEVAAN",
+    "organisation": "INDUSTRIAL AI STRATEGIST",
+    "designation": "NaN",
+    "linkedin": "linkedin.com/in/vimalvasudevan"
+  },
+  {
+    "sno": 849,
+    "name": "TRACY RING",
+    "organisation": "ACCENTURE",
+    "designation": "Chief Data Officer and Global Generative AI Lead – Life Sciences",
+    "linkedin": "linkedin.com/in/tracyring"
+  },
+  {
+    "sno": 850,
+    "name": "MIKE ABBOTT",
+    "organisation": "THOMSON REUTERS",
+    "designation": "Head of the Thomson Reuters Research Institute",
+    "linkedin": "linkedin.com/in/mike-abbott-4821932"
+  },
+  {
+    "sno": 851,
+    "name": "KAPIL LAHOTI",
+    "organisation": "CBRE",
+    "designation": "Chief Digital & Technology Officer, Global Workplace Solutions",
+    "linkedin": "linkedin.com/in/klahoti"
+  },
+  {
+    "sno": 852,
+    "name": "TOM ELLIS",
+    "organisation": "BANK OF AMERICA",
+    "designation": "Head of Mobile and Associate Facing Channels Technology",
+    "linkedin": "linkedin.com/in/tom-ellis-1302a312"
+  },
+  {
+    "sno": 853,
+    "name": "AMY BLANKSON",
+    "organisation": "DIGITAL WELLNESS INSTITUTE",
+    "designation": "Co-founder and Chief Evangelist",
+    "linkedin": "linkedin.com/in/amyblankson"
+  },
+  {
+    "sno": 854,
+    "name": "DR. JOHN ALMASAN",
+    "organisation": "TIAA",
+    "designation": "Senior Managing Director,Head of AI & Emerging Tech",
+    "linkedin": "linkedin.com/in/dr-john-rares-almasan-57166917"
+  },
+  {
+    "sno": 855,
+    "name": "JORGE CORRAL",
+    "organisation": "ACCENTURE",
+    "designation": "Senior Managing Director",
+    "linkedin": "linkedin.com/in/jorge-corral-dallas"
+  },
+  {
+    "sno": 856,
+    "name": "JOSHUA RIDLEY",
+    "organisation": "WILLOW",
+    "designation": "Founder and Chief Growth Officer",
+    "linkedin": "linkedin.com/in/joshuaridley"
+  },
+  {
+    "sno": 857,
+    "name": "SONIA KHOSLA",
+    "organisation": "GLOBE LIFE",
+    "designation": "SVP, Chief Data & AI Officer",
+    "linkedin": "linkedin.com/in/soniakhosla"
+  },
+  {
+    "sno": 858,
+    "name": "REBEKAH CHENELLE",
+    "organisation": "DALLAS REGIONAL CHAMBER",
+    "designation": "VP of Public Policy",
+    "linkedin": "linkedin.com/in/rebekah-chenelle-538333168"
+  },
+  {
+    "sno": 859,
+    "name": "BRAD WEBER",
+    "organisation": "TROUTMAN PEPPER LOCKE",
+    "designation": "Co-Chair Antitrust Practice Group and Artificial Intelligence Industry Group",
+    "linkedin": "linkedin.com/in/brad-weber-593b91a"
+  },
+  {
+    "sno": 860,
+    "name": "TRICIA BIGGIO",
+    "organisation": "INVISIBLE UNIVERSE",
+    "designation": "Co-Founder and CEO",
+    "linkedin": "linkedin.com/in/tricia-biggio-70522213b"
+  },
+  {
+    "sno": 861,
+    "name": "CHRIS HEIN",
+    "organisation": "GOOGLE",
+    "designation": "Field CTO of Public Sector",
+    "linkedin": "linkedin.com/in/christopherhein"
+  },
+  {
+    "sno": 862,
+    "name": "JUSTIN BUNDICK",
+    "organisation": "BROOKINGS INSTITUTION SOUTHWEST AIRLINES",
+    "designation": "Managing Director of Artificial Intelligence Delivery and Operations",
+    "linkedin": "linkedin.com/in/justinbundick"
+  },
+  {
+    "sno": 863,
+    "name": "SUBHASHINI TRIPURANENI",
+    "organisation": "JPMORGAN CHASE",
+    "designation": "Global Head (Managing Director) of AI/ML for HR",
+    "linkedin": "linkedin.com/in/subhashini-tripuraneni"
+  },
+  {
+    "sno": 864,
+    "name": "ANGELINA DARRISAW",
+    "organisation": "GOOGLE",
+    "designation": "National Coach Grow with Google",
+    "linkedin": "linkedin.com/in/angelinadarrisaw"
+  },
+  {
+    "sno": 865,
+    "name": "DALE CARMAN",
+    "organisation": "GROOVE JONES",
+    "designation": "Chief Technical Officer and Executive Creative Director",
+    "linkedin": "linkedin.com/in/dale-carman-10352b2"
+  },
+  {
+    "sno": 866,
+    "name": "JOSHUA RIDLEY",
+    "organisation": "GROOVE JONES",
+    "designation": "Creative Technologist",
+    "linkedin": "linkedin.com/in/joshuaridley"
+  },
+  {
+    "sno": 867,
+    "name": "DOUG HOGAN",
+    "organisation": "GROOVE JONES",
+    "designation": "Creative Technologist",
+    "linkedin": "linkedin.com/in/doughogan"
+  },
+  {
+    "sno": 868,
+    "name": "KRISTEN BRENT VENABLE",
+    "organisation": "FLORIDA INSTITUTE FOR HUMAN & MACHINE COGNITION",
+    "designation": "Senior Research Scientist",
+    "linkedin": "NO-linkendin"
+  },
+  {
+    "sno": 869,
+    "name": "COREY CLARK",
+    "organisation": "BALANCED MEDIA",
+    "designation": "CTO",
+    "linkedin": "linkedin.com/in/coreyclarkphd"
+  },
+  {
+    "sno": 870,
+    "name": "ROBERT HINOJOSA",
+    "organisation": "STAPLES",
+    "designation": "Head of Artificial Intelligence, Sr Director",
+    "linkedin": "linkedin.com/in/rhinojosa"
+  },
+  {
+    "sno": 871,
+    "name": "LADD LAIRD DAVE TSAI",
+    "organisation": "TOYOTA CONNECTED North America",
+    "designation": "SVP and Chief Information Officer, McKesson Pharmaceutical Solutions and Services",
+    "linkedin": "linkedin.com/in/laddlaird"
+  },
+  {
+    "sno": 872,
+    "name": "Dave T.",
+    "organisation": "TOYOTA CONNECTED North America",
+    "designation": "Engineering Leadership",
+    "linkedin": "linkedin.com/in/tsaidave"
+  },
+  {
+    "sno": 873,
+    "name": "JAMES HARDING",
+    "organisation": "GOOGLE",
+    "designation": "Manager, Gen AI Technical Solutions Consultant",
+    "linkedin": "linkedin.com/in/james-harding-bb343a1"
+  },
+  {
+    "sno": 874,
+    "name": "NACHIKET “NACHI” KARAJAGI",
+    "organisation": "PEPSICO",
+    "designation": "Global Senior Director of Data & AI and Head of AI Platforms & Solutions",
+    "linkedin": "linkedin.com/in/nachiketkarajagi"
+  },
+  {
+    "sno": 875,
+    "name": "CARLTON DOSSMAN",
+    "organisation": "MICROSOFT",
+    "designation": "Corporate Vice President of U.S. Commercial Industries",
+    "linkedin": "linkedin.com/in/carltondossman"
+  },
+  {
+    "sno": 876,
+    "name": "JODY HOWARD",
+    "organisation": "CATERPILLAR",
+    "designation": "Vice President of Innovation & Emerging Technology",
+    "linkedin": "linkedin.com/in/jody-howard-a8440a2"
+  },
+  {
+    "sno": 877,
+    "name": "SARAH MADSEN MILLER",
+    "organisation": "1820 PRODUCTIONS",
+    "designation": "COO and Executive Producer",
+    "linkedin": "linkedin.com/in/sara-madsen-miller-8746586"
+  },
+  {
+    "sno": 878,
+    "name": "TONY MUGAVERO",
+    "organisation": "RAD TV",
+    "designation": "CEO",
+    "linkedin": "linkedin.com/in/tonymugavero"
   }
 ]
