@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React, { useState, useMemo } from 'react';
-import LeadsTable from './components/LeadsTable';
-import FilterPanel from './components/FilterPanel';
-import SearchBar from './components/SearchBar';
-import leadsData from './LeadsData.json';
+import React, { useState, useMemo } from "react";
+import SearchBar from "../components/SearchBar";
+import FilterPanel from "../components/FilterPanel";
+import LeadsTable from "../components/LeadsTable";
+import leadsData from "../LeadsData.json";
 
 type Lead = {
   sno: number;
@@ -15,27 +15,19 @@ type Lead = {
 };
 
 const DashboardPage = () => {
-  const [selectedOrganisation, setSelectedOrganisation] = useState('');
-  const [selectedDesignation, setSelectedDesignation] = useState('');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedOrganisation, setSelectedOrganisation] = useState("");
+  const [selectedDesignation, setSelectedDesignation] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const organisations = useMemo(() => {
     return Array.from(
-      new Set(
-        leadsData
-          .map((lead: Lead) => lead.organisation?.trim())
-          .filter((org): org is string => !!org)
-      )
+      new Set(leadsData.map((lead: Lead) => lead.organisation?.trim()).filter((org): org is string => !!org))
     ).sort();
   }, []);
 
   const designations = useMemo(() => {
     return Array.from(
-      new Set(
-        leadsData
-          .map((lead: Lead) => lead.designation?.trim())
-          .filter((desig): desig is string => !!desig)
-      )
+      new Set(leadsData.map((lead: Lead) => lead.designation?.trim()).filter((desig): desig is string => !!desig))
     ).sort();
   }, []);
 
@@ -46,9 +38,8 @@ const DashboardPage = () => {
       const matchDesig = selectedDesignation ? lead.designation === selectedDesignation : true;
       // Check if name contains the search query (case-insensitive)
       const matchSearch =
-        searchQuery.trim() === '' ||
-        (lead.name !== null &&
-          lead.name.toLowerCase().includes(searchQuery.toLowerCase().trim()));
+        searchQuery.trim() === "" ||
+        (lead.name !== null && lead.name.toLowerCase().includes(searchQuery.toLowerCase().trim()));
 
       return matchOrg && matchDesig && matchSearch;
     });
@@ -58,20 +49,14 @@ const DashboardPage = () => {
     <main className="container mx-auto px-3 sm:px-4 lg:px-8 py-6 sm:py-10 min-h-screen bg-gradient-to-b from-blue-50 via-white to-gray-50 overflow-x-hidden">
       <header className="mb-6 sm:mb-10 text-center">
         <h1 className="text-2xl sm:text-4xl font-extrabold text-blue-900 tracking-tight drop-shadow-sm">
-          Leads Dashboard
+          All Time Prospects Dashboard (2025)
         </h1>
-        <p className="text-gray-600 mt-1 sm:mt-2 text-sm sm:text-base">
-          Filter and explore your leads efficiently
-        </p>
+        <p className="text-gray-600 mt-1 sm:mt-2 text-sm sm:text-base">Filter and explore your leads efficiently</p>
       </header>
 
       {/* Search Bar */}
       <div className="mb-6 sm:mb-8 max-w-md mx-auto sm:mx-0">
-        <SearchBar
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-          placeholder="Search leads by name..."
-        />
+        <SearchBar searchQuery={searchQuery} onSearchChange={setSearchQuery} placeholder="Search leads by name..." />
       </div>
 
       <div className="mb-6 sm:mb-8">
@@ -91,17 +76,15 @@ const DashboardPage = () => {
       >
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 sm:mb-4">
           <h2 id="leads-section" className="text-lg sm:text-xl font-semibold text-gray-800">
-            {filteredLeads.length > 0
-              ? `Showing ${filteredLeads.length} Leads`
-              : 'No Leads Found'}
+            {filteredLeads.length > 0 ? `Showing ${filteredLeads.length} Leads` : "No Leads Found"}
           </h2>
           {(selectedOrganisation || selectedDesignation || searchQuery) && (
             <button
               className="mt-2 sm:mt-0 text-xs sm:text-sm text-blue-600 hover:underline"
               onClick={() => {
-                setSelectedOrganisation('');
-                setSelectedDesignation('');
-                setSearchQuery('');
+                setSelectedOrganisation("");
+                setSelectedDesignation("");
+                setSearchQuery("");
               }}
             >
               Clear Filters

@@ -6104,5 +6104,152 @@
     "organisation": "RAD TV",
     "designation": "CEO",
     "linkedin": "linkedin.com/in/tonymugavero"
+  },
+  {
+    "sno": 879,
+    "name": "Benjamin Sayaque",
+    "organisation": "Folgo",
+    "designation": "Engineering student at CPE Lyon in Electronics",
+    "linkedin": "https://www.linkedin.com/in/benjamin-sayaque-pro/?locale=en_US"
+  },
+  {
+    "sno": 880,
+    "name": "Karl Hampson",
+    "organisation": "Valtech",
+    "designation": "GenAI & Search Leader",
+    "linkedin": "https://www.linkedin.com/in/karlrh/"
+  },
+  {
+    "sno": 881,
+    "name": "Shota Sando",
+    "organisation": "Google",
+    "designation": "Head of Google Workspace Sales",
+    "linkedin": "https://www.linkedin.com/in/shota-s-75a55836/"
+  },
+  {
+    "sno": 882,
+    "name": "Jessica Dannemann",
+    "organisation": "Optimizely",
+    "designation": "Chief Partnership Officer",
+    "linkedin": "https://www.linkedin.com/in/jessica-dannemann-93858936/"
+  },
+  {
+    "sno": 883,
+    "name": "Radhika Garimella",
+    "organisation": "Neterich",
+    "designation": "Director Strategic Partnerships",
+    "linkedin": "https://www.linkedin.com/in/radhika-garimella-ba910553/"
+  },
+  {
+    "sno": 884,
+    "name": "Armand Aquino, CFA",
+    "organisation": "CrowdStrike",
+    "designation": "Cloud Architect SE Labs",
+    "linkedin": "https://www.linkedin.com/in/armand-aquino/"
+  },
+  {
+    "sno": 885,
+    "name": "Sam Rounds",
+    "organisation": "BPE Solicitors",
+    "designation": "Head of BD and Marketing",
+    "linkedin": "https://www.linkedin.com/in/sam-round/"
+  },
+  {
+    "sno": 886,
+    "name": "Jacuqui Dow",
+    "organisation": "Sourcegraph",
+    "designation": "Solutions Engineer",
+    "linkedin": "http://linkedin.com/in/jacqui-dow-05571532/"
+  },
+  {
+    "sno": 887,
+    "name": "Somnath Ray",
+    "organisation": "Google Cloud",
+    "designation": "Google Cloud Consulting (GCC)",
+    "linkedin": "https://www.linkedin.com/in/somnathroyleeds/"
+  },
+  {
+    "sno": 888,
+    "name": "Dillon Do",
+    "organisation": "Google Cloud",
+    "designation": "Google Cloud Consulting",
+    "linkedin": "https://www.linkedin.com/in/dillondo/"
+  },
+  {
+    "sno": 889,
+    "name": "Cathy Hsu",
+    "organisation": "Marqeta",
+    "designation": "Engineering & Business Leader in Fintech and SaaS",
+    "linkedin": "https://www.linkedin.com/in/cathyhsu/"
+  },
+  {
+    "sno": 890,
+    "name": "Yosef A.",
+    "organisation": "Snap Inc.",
+    "designation": "Product",
+    "linkedin": "https://www.linkedin.com/in/yosef-adiputra/"
+  },
+  {
+    "sno": 891,
+    "name": "Mitch Gerdisch",
+    "organisation": "Pulumi Corporation",
+    "designation": "Solutions Architect",
+    "linkedin": "https://www.linkedin.com/in/mitchgerdisch/"
+  },
+  {
+    "sno": 892,
+    "name": "Troy Edwards",
+    "organisation": "Google Cloud at StrataPrime",
+    "designation": "Enterprise Sales Specialist",
+    "linkedin": "https://www.linkedin.com/in/edwardstroy/"
+  },
+  {
+    "sno": 893,
+    "name": "Adam Malone",
+    "organisation": "PromptQL",
+    "designation": "Leading Forward Deployed Engineering",
+    "linkedin": "https://www.linkedin.com/in/adamdmalone/"
+  },
+  {
+    "sno": 894,
+    "name": "Simon Champman",
+    "organisation": "Optimizely",
+    "designation": "VP, Enablement",
+    "linkedin": "https://www.linkedin.com/in/sgchapman/"
+  },
+  {
+    "sno": 895,
+    "name": "Nick Brewers",
+    "organisation": "Lumapps",
+    "designation": "Sales Engineer",
+    "linkedin": "https://www.linkedin.com/in/nick-brewers-55130382/"
+  },
+  {
+    "sno": 896,
+    "name": "Kurtis Kaufman",
+    "organisation": "ContractPodAi",
+    "designation": "Account Executive",
+    "linkedin": "https://www.linkedin.com/in/kurtis-kaufman/"
+  },
+  {
+    "sno": 897,
+    "name": "Dan Braun",
+    "organisation": "Cast AI",
+    "designation": "Director, Southeast Sales",
+    "linkedin": "https://www.linkedin.com/in/dan-braun-27079a56/"
+  },
+  {
+    "sno": 898,
+    "name": "Antuan Frayman",
+    "organisation": "Cast AI",
+    "designation": "AWS Solution Architect",
+    "linkedin": "https://www.linkedin.com/in/antuan-frayman-%F0%9F%87%BA%F0%9F%87%A6-4b0a53b/"
+  },
+  {
+    "sno": 899,
+    "name": "Alla Arefeva",
+    "organisation": "Google Cloud",
+    "designation": "GenAI Solutions Architect",
+    "linkedin": "https://www.linkedin.com/in/alla-arefeva-ai-engineer/"
   }
 ]
