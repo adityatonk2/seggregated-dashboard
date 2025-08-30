@@ -77,7 +77,7 @@ const DashboardPage = () => {
   const sectors = [
     "Energy",
     "Power",
-    "Banks",
+    "Bank",
     "Finance",
     "Management",
     "Technology",
