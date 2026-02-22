@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useMemo } from "react";
+import Link from "next/link";
 import { Client } from "../types/client";
 
 const DashboardPage = () => {
@@ -8,13 +9,16 @@ const DashboardPage = () => {
   const [page, setPage] = useState(1);
   const [limit] = useState(200);
   const [totalPages, setTotalPages] = useState(1);
-  const [sectorFilter, setSectorFilter] = useState(""); // used for both button & search
-  const [searchText, setSearchText] = useState(""); // 🔹 local state for search input
+
+  const [sectorFilter, setSectorFilter] = useState("");
+  const [searchText, setSearchText] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // Debounce ref
   const debounceRef = useRef<NodeJS.Timeout | null>(null);
 
+  // ======================
+  // FETCH CLIENTS
+  // ======================
   const fetchClients = async () => {
     setLoading(true);
     try {
@@ -22,16 +26,18 @@ const DashboardPage = () => {
         page: String(page),
         limit: String(limit),
       });
-      if (sectorFilter.trim()) {
-        params.append("sector", sectorFilter.trim());
+
+      if (sectorFilter) {
+        params.append("sector", sectorFilter);
       }
 
       const res = await fetch(`/api/clients?${params}`);
       const json = await res.json();
-      setClients(json.data);
-      setTotalPages(json.totalPages);
-    } catch (error) {
-      console.error("Error fetching clients:", error);
+
+      setClients(json.data || []);
+      setTotalPages(json.totalPages || 1);
+    } catch (err) {
+      console.error("Fetch error:", err);
     } finally {
       setLoading(false);
     }
@@ -40,21 +46,34 @@ const DashboardPage = () => {
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
 
-    debounceRef.current = setTimeout(() => {
-      fetchClients();
-    }, 400); // debounce: 400ms
+    debounceRef.current = setTimeout(fetchClients, 400);
 
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, [page, sectorFilter]);
 
+  // ======================
+  // CLIENT-SIDE SEARCH
+  // ======================
+  const filteredClients = useMemo(() => {
+    const q = searchText.toLowerCase().trim();
+    if (!q) return clients;
+
+    return clients.filter((c) =>
+      [c.Name, c.Organization, c.Designation, c.LinkedIn].filter(Boolean).some((v) => v!.toLowerCase().includes(q)),
+    );
+  }, [clients, searchText]);
+
+  // ======================
+  // PAGINATION CONTROLS
+  // ======================
   const PaginationControls = () => (
-    <div className="flex justify-end items-center gap-6 my-4">
+    <div className="flex justify-between items-center gap-4 my-6">
       <button
+        onClick={() => setPage((p) => Math.max(1, p - 1))}
         disabled={page === 1}
-        onClick={() => setPage((p) => p - 1)}
-        className="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 disabled:bg-gray-50 disabled:text-gray-400 border shadow-sm transition"
+        className="px-4 py-2 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
       >
         ⬅ Prev
       </button>
@@ -64,16 +83,18 @@ const DashboardPage = () => {
       </span>
 
       <button
+        onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
         disabled={page === totalPages}
-        onClick={() => setPage((p) => p + 1)}
-        className="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 disabled:bg-gray-50 disabled:text-gray-400 border shadow-sm transition"
+        className="px-4 py-2 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
       >
         Next ➡
       </button>
     </div>
   );
 
-  // Predefined Sectors
+  // ======================
+  // SECTORS
+  // ======================
   const sectors = [
     "Energy",
     "Power",
@@ -88,48 +109,56 @@ const DashboardPage = () => {
 
   return (
     <main className="p-6">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">All Time Prospects Dashboard (2025)</h1>
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+        <h1 className="text-3xl font-bold">All Time Prospects Dashboard (2025)</h1>
 
-      {/* 🔹 Search Box */}
-      <div className="mb-6 flex items-center gap-3">
+        <div className="flex gap-3 flex-wrap">
+          {/* Internal route */}
+          <a
+            href="/card-data"
+            className="px-5 py-2.5 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition inline-flex items-center justify-center"
+          >
+            📇 View Physical Collected Data
+          </a>
+
+          {/* External Notion link */}
+          <a
+            href="https://www.notion.so/September-to-January-Leads-2ffa76a33b1080099858d670db41ca75"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2.5 rounded-lg bg-gray-800 text-white font-semibold hover:bg-gray-900 transition inline-flex items-center justify-center"
+          >
+            📝 View Notion Leads
+          </a>
+        </div>
+      </div>
+
+      {/* SEARCH */}
+      <div className="mb-6 flex gap-3">
         <input
-          type="text"
           value={searchText}
-          onChange={(e) => {
-            setSearchText(e.target.value);
-            setPage(1); // reset page
-            setSectorFilter(e.target.value); // update filter
-          }}
-          placeholder="Search by Designation..."
-          className="flex-1 px-4 py-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          onChange={(e) => setSearchText(e.target.value)}
+          placeholder="Search name, organisation, designation..."
+          className="flex-1 px-4 py-2 border rounded-lg"
         />
         {searchText && (
-          <button
-            onClick={() => {
-              setSearchText("");
-              setSectorFilter("");
-            }}
-            className="px-4 py-2 rounded-lg bg-red-100 text-red-600 hover:bg-red-200 text-sm font-medium"
-          >
+          <button onClick={() => setSearchText("")} className="px-4 py-2 bg-red-100 text-red-600 rounded-lg">
             Clear
           </button>
         )}
       </div>
 
-      {/* Sector Filters */}
+      {/* SECTOR FILTER */}
       <div className="flex flex-wrap gap-3 mb-6">
         {sectors.map((sector) => (
           <button
             key={sector}
             onClick={() => {
-              setPage(1); // reset to page 1
-              setSectorFilter(sector === sectorFilter ? "" : sector); // toggle
-              setSearchText(sector === sectorFilter ? "" : sector); // sync search box
+              setPage(1);
+              setSectorFilter(sector === sectorFilter ? "" : sector);
             }}
-            className={`px-4 py-2 rounded-full border shadow-sm text-sm font-medium transition ${
-              sectorFilter === sector
-                ? "bg-blue-600 text-white border-blue-700"
-                : "bg-gray-100 hover:bg-gray-200 text-gray-700"
+            className={`px-4 py-2 rounded-full border text-sm font-medium ${
+              sectorFilter === sector ? "bg-blue-600 text-white" : "bg-gray-100 hover:bg-gray-200"
             }`}
           >
             {sector}
@@ -137,57 +166,57 @@ const DashboardPage = () => {
         ))}
       </div>
 
-      {/* Pagination Top */}
       <PaginationControls />
 
-      {/* Loader */}
+      {/* TABLE */}
       {loading ? (
-        <div className="flex justify-center items-center py-20">
-          <div className="w-10 h-10 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
-        </div>
+        <div className="py-20 text-center">Loading...</div>
       ) : (
-        <div className="overflow-x-auto rounded-lg shadow-lg border border-gray-200">
-          <table className="min-w-full bg-white">
-            <thead className="bg-gray-100 text-gray-700">
+        <div className="overflow-x-auto border rounded-lg">
+          <table className="min-w-full">
+            <thead className="bg-gray-100">
               <tr>
-                <th className="border px-4 py-3 text-left">Name</th>
-                <th className="border px-4 py-3 text-left">Organization</th>
-                <th className="border px-4 py-3 text-left">Designation</th>
-                <th className="border px-4 py-3 text-left">LinkedIn</th>
-                <th className="border px-4 py-3 text-left">Email Address</th>
-                <th className="border px-4 py-3 text-left">Connected On</th>
+                <th className="border px-4 py-2 text-left">Name</th>
+                <th className="border px-4 py-2 text-left">Organization</th>
+                <th className="border px-4 py-2 text-left">Designation</th>
+                <th className="border px-4 py-2 text-left">LinkedIn</th>
               </tr>
             </thead>
             <tbody>
-              {clients.map((client, i) => (
-                <tr key={client._id} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="border px-4 py-3">{client.Name}</td>
-                  <td className="border px-4 py-3">{client.Organization}</td>
-                  <td className="border px-4 py-3">{client.Designation}</td>
-                  <td className="border px-4 py-3">
-                    {client.LinkedIn ? (
+              {filteredClients.map((c, i) => (
+                <tr key={c._id} className={i % 2 ? "bg-gray-50" : ""}>
+                  <td className="border px-4 py-2">{c.Name}</td>
+                  <td className="border px-4 py-2">{c.Organization}</td>
+                  <td className="border px-4 py-2">{c.Designation}</td>
+                  <td className="border px-4 py-2">
+                    {c.LinkedIn ? (
                       <a
-                        href={client.LinkedIn}
+                        href={c.LinkedIn}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 underline"
+                        className="text-blue-600 underline"
                       >
-                        View Profile
+                        View
                       </a>
                     ) : (
                       "—"
                     )}
                   </td>
-                  <td className="border px-4 py-3">{client["Email Address"] ?? "—"}</td>
-                  <td className="border px-4 py-3">{client["Connected On"] ?? "—"}</td>
                 </tr>
               ))}
+
+              {!filteredClients.length && (
+                <tr>
+                  <td colSpan={4} className="text-center py-6 text-gray-500">
+                    No results found
+                  </td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
       )}
 
-      {/* Pagination Bottom */}
       <PaginationControls />
     </main>
   );
