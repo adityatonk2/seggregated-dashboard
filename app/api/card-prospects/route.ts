@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import fs from "fs";
+import path from "path";
 
 export async function GET() {
   try {
-    const client = await clientPromise;
-    const db = client.db(process.env.MONGODB_DB_NAME);
-
-    const data = await db.collection("card_prospects").find({}).sort({ sno: 1 }).toArray();
+    const filePath = path.join(process.cwd(), "scripts", "card-prospects.json");
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const data = JSON.parse(fileContents);
 
     return NextResponse.json({ data });
   } catch (err) {
