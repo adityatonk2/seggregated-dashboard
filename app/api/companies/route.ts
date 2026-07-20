@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import getMongoClientPromise from "@/lib/mongodb";
 import { Client } from "@/app/types/client";
 import { Filter } from "mongodb";
 
@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
       ];
     }
 
-    const client = await clientPromise;
+    const client = await getMongoClientPromise();
     const db = client.db("test");
     const collection = db.collection<Client>("companies");
 
