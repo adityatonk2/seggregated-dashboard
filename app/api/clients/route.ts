@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
     }
 
     const client = await getMongoClientPromise();
-    const db = client.db("test");
+    const db = client.db(process.env.MONGODB_NAME);
     const collection = db.collection<Client>("clients");
 
     const data = await collection.find(query).skip(skip).limit(limit).toArray();
