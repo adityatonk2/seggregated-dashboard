@@ -18,13 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             href="/"
             className="inline-block text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors duration-200 px-4 py-2 rounded-lg border border-blue-100 bg-blue-50 shadow-sm hover:bg-blue-100"
           >
-            Home
-          </Link>
-          <Link
-            href="/companies"
-            className="inline-block text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors duration-200 px-4 py-2 rounded-lg border border-blue-100 bg-blue-50 shadow-sm hover:bg-blue-100"
-          >
-            Companies
+            Dashboard
           </Link>
         </nav>
 

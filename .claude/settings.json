@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"require.resolve\\('playwright'\\)\")",
+      "Bash(node -e \"require.resolve\\('puppeteer'\\)\")",
+      "Bash(curl -s \"http://localhost:3401/api/leads?source=excel_import&limit=10\")",
+      "Bash(python3 -c ' *)",
+      "Bash(lsof -ti:3401 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:3401 >/dev/null; do sleep 1; done')",
+      "Bash(curl -sf http://localhost:3401)",
+      "Bash(curl -sv http://localhost:3401)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "Bash(curl -s \"http://localhost:3000/api/leads/stats\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant1.xlsx)",
+      "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant2.xlsx)",
+      "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant3_missing_org.xlsx)"
+    ]
+  }
+}

@@ -8,6 +8,19 @@ declare global {
   var _mongoClientPromise: Promise<MongoClient> | undefined;
 }
 
+function connect(uri: string): Promise<MongoClient> {
+  const promise = new MongoClient(uri, options).connect();
+  // If the connection attempt fails, drop every cache pointing at this
+  // rejected promise so the next call retries instead of awaiting the same
+  // dead promise forever (previously a single Atlas blip would permanently
+  // break the app until the dev server was restarted).
+  promise.catch(() => {
+    if (clientPromise === promise) clientPromise = undefined;
+    if (global._mongoClientPromise === promise) global._mongoClientPromise = undefined;
+  });
+  return promise;
+}
+
 function createClientPromise(): Promise<MongoClient> {
   const uri = process.env.MONGODB_URI;
 
@@ -17,12 +30,12 @@ function createClientPromise(): Promise<MongoClient> {
 
   if (process.env.NODE_ENV === "development") {
     if (!global._mongoClientPromise) {
-      global._mongoClientPromise = new MongoClient(uri, options).connect();
+      global._mongoClientPromise = connect(uri);
     }
     return global._mongoClientPromise;
   }
 
-  return new MongoClient(uri, options).connect();
+  return connect(uri);
 }
 
 let clientPromise: Promise<MongoClient> | undefined;
