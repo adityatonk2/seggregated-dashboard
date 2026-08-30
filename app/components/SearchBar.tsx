@@ -13,7 +13,7 @@ export default function SearchBar({
   placeholder = 'Search leads...',
 }: SearchBarProps) {
   return (
-    <div className="relative w-full max-w-md mx-auto sm:mx-0">
+    <div className="relative w-full">
       <input
         type="text"
         value={searchQuery}

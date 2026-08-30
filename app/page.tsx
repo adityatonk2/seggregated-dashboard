@@ -128,16 +128,18 @@ const DashboardPage = () => {
   };
 
   return (
-    <main className="p-6">
+    <main className="p-4 sm:p-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Sales Leads Dashboard</h1>
-          <p className="text-gray-500 mt-1">{total.toLocaleString()} total leads matching current filters</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Sales Leads Dashboard</h1>
+          <p className="text-sm sm:text-base text-gray-500 mt-1">
+            {total.toLocaleString()} total leads matching current filters
+          </p>
         </div>
 
         <button
           onClick={() => setShowImportModal(true)}
-          className="px-5 py-2.5 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition inline-flex items-center justify-center"
+          className="px-5 py-2.5 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition inline-flex items-center justify-center w-full sm:w-auto"
         >
           📥 Import Leads
         </button>
@@ -155,23 +157,23 @@ const DashboardPage = () => {
         onSortChange={handleSortChange}
       />
 
-      <div className="flex justify-between items-center gap-4 my-6">
+      <div className="flex flex-wrap justify-between items-center gap-3 my-6">
         <button
           onClick={() => setPage((p) => Math.max(1, p - 1))}
           disabled={page === 1}
-          className="px-4 py-2 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="px-3 py-2 sm:px-4 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed text-sm sm:text-base"
         >
           ⬅ Prev
         </button>
 
-        <span className="text-sm font-medium text-gray-700">
+        <span className="text-sm font-medium text-gray-700 order-last sm:order-none w-full sm:w-auto text-center">
           Page <span className="font-semibold">{page}</span> of <span className="font-semibold">{totalPages}</span>
         </span>
 
         <button
           onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
           disabled={page === totalPages}
-          className="px-4 py-2 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="px-3 py-2 sm:px-4 rounded-lg border bg-gray-100 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed text-sm sm:text-base"
         >
           Next ➡
         </button>

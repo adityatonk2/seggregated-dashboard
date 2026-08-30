@@ -43,42 +43,42 @@ const LeadsTable: React.FC<LeadsTableProps> = ({ leads, loading, sortField, sort
   }
 
   return (
-    <div className="overflow-x-auto border border-gray-200 rounded-xl shadow-sm bg-white">
-      <table className="min-w-full divide-y divide-gray-200">
+    <div className="overflow-x-auto border border-gray-200 rounded-xl shadow-sm bg-white -mx-4 sm:mx-0 rounded-none sm:rounded-xl">
+      <table className="min-w-[760px] w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
           <tr>
             {HEADERS.map((h) => (
               <th
                 key={h.field}
                 onClick={() => onSortChange(h.field)}
-                className="px-4 py-3 text-left text-sm font-semibold text-gray-700 cursor-pointer select-none hover:bg-gray-100"
+                className="px-3 sm:px-4 py-3 text-left text-sm font-semibold text-gray-700 cursor-pointer select-none hover:bg-gray-100 whitespace-nowrap"
               >
                 {h.label}
                 {sortIndicator(h.field)}
               </th>
             ))}
-            <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">Source</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">LinkedIn</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">Email</th>
+            <th className="px-3 sm:px-4 py-3 text-left text-sm font-semibold text-gray-700 whitespace-nowrap">Source</th>
+            <th className="px-3 sm:px-4 py-3 text-left text-sm font-semibold text-gray-700 whitespace-nowrap">LinkedIn</th>
+            <th className="px-3 sm:px-4 py-3 text-left text-sm font-semibold text-gray-700 whitespace-nowrap">Email</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100">
           {leads.map((lead, idx) => (
             <tr key={lead._id} className={`hover:bg-blue-50 transition-colors ${idx % 2 ? "bg-gray-50" : "bg-white"}`}>
-              <td className="px-4 py-3 text-sm font-medium text-gray-900">{lead.name}</td>
-              <td className="px-4 py-3 text-sm text-gray-700">{lead.organisation}</td>
-              <td className="px-4 py-3 text-sm text-gray-700">{lead.role || "—"}</td>
-              <td className="px-4 py-3 text-sm text-gray-700">{lead.sector || "—"}</td>
-              <td className="px-4 py-3 text-sm">
+              <td className="px-3 sm:px-4 py-3 text-sm font-medium text-gray-900">{lead.name}</td>
+              <td className="px-3 sm:px-4 py-3 text-sm text-gray-700">{lead.organisation}</td>
+              <td className="px-3 sm:px-4 py-3 text-sm text-gray-700">{lead.role || "—"}</td>
+              <td className="px-3 sm:px-4 py-3 text-sm text-gray-700">{lead.sector || "—"}</td>
+              <td className="px-3 sm:px-4 py-3 text-sm">
                 <span
-                  className={`px-2 py-0.5 rounded-full text-xs font-medium border ${
+                  className={`px-2 py-0.5 rounded-full text-xs font-medium border whitespace-nowrap ${
                     SOURCE_BADGE[lead.source] || "bg-gray-50 text-gray-700 border-gray-100"
                   }`}
                 >
                   {SOURCE_LABEL[lead.source] || lead.source}
                 </span>
               </td>
-              <td className="px-4 py-3 text-sm">
+              <td className="px-3 sm:px-4 py-3 text-sm">
                 {lead.linkedin ? (
                   <a
                     href={lead.linkedin.startsWith("http") ? lead.linkedin : `https://${lead.linkedin}`}
@@ -92,7 +92,7 @@ const LeadsTable: React.FC<LeadsTableProps> = ({ leads, loading, sortField, sort
                   <span className="text-gray-400">—</span>
                 )}
               </td>
-              <td className="px-4 py-3 text-sm text-gray-700">{lead.email || "—"}</td>
+              <td className="px-3 sm:px-4 py-3 text-sm text-gray-700">{lead.email || "—"}</td>
             </tr>
           ))}
 

@@ -16,7 +16,11 @@
       "Bash(python3 -m json.tool)",
       "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant1.xlsx)",
       "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant2.xlsx)",
-      "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant3_missing_org.xlsx)"
+      "Bash(python3 scripts/import_excel.py __TRACKED_VAR__/variant3_missing_org.xlsx)",
+      "Bash(ollama list *)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(curl -s http://127.0.0.1:11434/api/tags)"
     ]
   }
 }
